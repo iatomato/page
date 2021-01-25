@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is John's Blogs. Theme 'bout Linux and Programming language.
+This is John's Blogs. 'bout Linux and Programming language.
 
 You can find the source code for the Jekyll new theme at:
 {% include icon-github.html username="jekyll" %} /

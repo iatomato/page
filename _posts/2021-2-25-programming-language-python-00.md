@@ -5,7 +5,7 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-![useful image]({{ site.url }}/assets/images/python-logo.jpeg)
+![usefulimage]({{ site.url }}/assets/images/python-logo.jpeg)
 
 > # Table of Contents
 * [高階語法](#高階語法)

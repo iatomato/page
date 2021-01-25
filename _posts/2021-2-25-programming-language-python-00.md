@@ -13,6 +13,8 @@ author: John G. Wick
 
 # Streamline
 
+簡短而有效率
+
 # Understandability
 
 [Examples](#)

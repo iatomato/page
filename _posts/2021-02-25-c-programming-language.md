@@ -1,8 +1,11 @@
 ---
 layout: post
+title: "C Programming Language: Create"
+categories: Programming Language
+author: John G. Wick
 ---
 
-#Programming Language
+# Programming Language
 
 "What's Programming language best?" I know many people have asked this question.<br>
 Yes, it's a stupid question.<br>

@@ -5,6 +5,8 @@ categories: Programming Language
 author: John G. Wick
 ---
 
+[![An old rock in the desert](/assets/images/shiprock.jpg)]
+
 > # Table of Contents
 * [高階語法](#高階語法)
   * [Streamline](#Streamline)

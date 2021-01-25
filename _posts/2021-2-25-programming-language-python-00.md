@@ -5,7 +5,7 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/python-logo.jepg "Philadelphia's Magic Gardens")
+![Philadelphia's Magic Gardens. This place was so cool!](https://github.com/iatomato/blogs/blob/master/assets/images/python-logo.jpeg "Philadelphia's Magic Gardens")
 
 > # Table of Contents
 * [高階語法](#高階語法)

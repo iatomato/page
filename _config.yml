@@ -1,11 +1,11 @@
-title: Quant Humanists Blog
-author: Aurelia
-email: auremoser@gmail.com
+title: Linux Blogs Form Study
+author: John G. Wick
+email: l_.ll@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Some curious coding and cleverness.
 
-twitter_username: auremoser 
-github_username:  auremoser
+twitter_username:
+github_username:
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this

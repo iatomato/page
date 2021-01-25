@@ -11,8 +11,8 @@ author: John G. Wick
   * [Understandability](#Understandability)
   * [例子](#)
 * [Json](#Json)
-  * [數據類型](#)
-  * [對數據的訪問](#)
+  * [資料類型](#)
+  * [對資料的訪問](#)
   * [支援函式庫](#)
 
 # Streamline
@@ -23,7 +23,7 @@ author: John G. Wick
 
 [Examples](#)
 
-# Basic
+# 基本資料類型
 
 ```
 List - [value0, value1, value2]
@@ -31,4 +31,6 @@ Dict - {key0: value0, key1: value1, key2: value1}
 Tuple - (value0, value1, value2)
 ```
 List 和 Tuple 之間的簡單區別， List 的值可以在程序運行時更改，而 Tuple 值不可以更改。
-三種數據類型可以相互嵌套，至於如何組合就有什麼樣的效率。
+三種資料類型可以相互嵌套，至於如何組合就有什麼樣的效率。
+
+# Json

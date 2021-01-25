@@ -24,3 +24,4 @@ List - [value0, value1, value2]
 Dict - {key0: value0, key1: value1, key2: value1}
 Tuple - (value0, value1, value2)
 ```
+List 和 Tuple 之間的簡單區別， List 的值可以在程序運行時更改，而 Tuple 值不可以更改。

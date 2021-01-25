@@ -16,3 +16,9 @@ author: John G. Wick
 # Understandability
 
 [Examples]()
+
+---
+List
+Dict
+Tuple
+---

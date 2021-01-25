@@ -5,7 +5,7 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-![An old rock in the desert](https://github.com/iatomato/blogs/blob/master/assets/images/python-logo.jpeg)
+![LOGO](https://github.com/iatomato/blogs/blob/master/assets/images/python-logo.jpeg)
 
 > # Table of Contents
 * [高階語法](#高階語法)

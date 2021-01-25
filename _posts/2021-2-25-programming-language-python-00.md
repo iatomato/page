@@ -21,16 +21,20 @@ author: John G. Wick
 
 簡短而有效率
 ```python
-if (a != 0)
+if (a == 0)
   return 1
 else
   return 0
 ```
 變更
 ```python
-if (a != 0)
+if (a == 0)
   return 1
 return 0
+> if (not a | 0)
+>   return 1
+> return 0
+類似 C 語言的邏輯寫法
 ```
 
 ### *Understandability*

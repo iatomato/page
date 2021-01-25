@@ -15,10 +15,10 @@ author: John G. Wick
 
 # Understandability
 
-[Examples]()
+[Examples](#)
 
-'''
+```
 List
 Dict
 Tuple
-'''
+```

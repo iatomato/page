@@ -16,8 +16,8 @@ author: John G. Wick
   * [對資料的訪問](#)
   * [支援函式庫](#)
 
-# 高階語法(#高階語法)
-# Streamline
+# 高階語法
+## Streamline
 
 簡短而有效率
 {% highlight python %}
@@ -27,7 +27,7 @@ else
   return 0
 {% endhighlight %}
 
-# Understandability
+## Understandability
 
 [Examples](#)
 

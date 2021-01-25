@@ -7,4 +7,4 @@ author: John G. Wick
 
 # Python
 
-[Download & Install](https://Python.org)
+[Download & Install](https://www.python.org)

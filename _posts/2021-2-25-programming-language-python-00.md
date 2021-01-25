@@ -33,7 +33,7 @@ else
 
 # 基本資料類型
 
-```
+```python
 List - [value0, value1, value2]
 Dict - {key0: value0, key1: value1, key2: value1}
 Tuple - (value0, value1, value2)

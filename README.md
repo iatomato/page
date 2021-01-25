@@ -1,3 +1,5 @@
+#include _categories/operating-system
+
 ## blog for quant humanists 2018
 
 ### select a template

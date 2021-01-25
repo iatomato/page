@@ -31,11 +31,13 @@ else
 if (a == 0)
   return 1
 return 0
-> if (not a | 0)
->   return 1
-> return 0
-類似 C 語言的邏輯寫法
 ```
+```python
+ if (not a | 0)
+   return 1
+ return 0
+```
+類似 C 語言的邏輯寫法
 
 ### *Understandability*
 

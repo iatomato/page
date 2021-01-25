@@ -1,4 +1,4 @@
-#include _categories/operating-system
+#include _categories/operating-system.md
 
 ## blog for quant humanists 2018
 

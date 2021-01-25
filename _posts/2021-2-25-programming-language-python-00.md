@@ -6,8 +6,7 @@ author: John G. Wick
 ---
 
 # Streamline
-<br>
 
 # Understandability
-<br>
+
 [Examples]()

@@ -17,7 +17,7 @@ author: John G. Wick
   * [支援函式庫](#支援函式庫)
 
 # 高階語法
-## Streamline
+### Streamline
 
 簡短而有效率
 {% highlight python %}
@@ -27,7 +27,7 @@ else
   return 0
 {% endhighlight %}
 
-## Understandability
+### Understandability
 
 [Examples](#)
 
@@ -43,6 +43,6 @@ Tuple - (value0, value1, value2)
 
 # Json
 
-## 資料類型
-## 訪問檔案資料
-## 支援函式庫
+### 資料類型
+### 訪問檔案資料
+### 支援函式庫

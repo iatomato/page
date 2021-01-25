@@ -7,6 +7,7 @@ I know many people have asked this question.<br>
 Yes, it's a stupid question.<br>
 <hr>
 <br>
+Open terminal or other terminal, type it.
 {% highlight bash %}
 vim hello.c
 {% endhighlight %}

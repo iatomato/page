@@ -9,7 +9,7 @@ author: John G. Wick
 * [Streamline](#Stream)
   * [解釋理解](#解釋理解)
   * [例子](#例子)
-* [Understandability](# Understandability)
+* [Understandability](#Understandability)
 
 # Streamline
 

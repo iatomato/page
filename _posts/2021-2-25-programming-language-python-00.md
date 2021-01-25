@@ -5,7 +5,7 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-![GSD1 phenotype]({{ BASE_PATH }}/assets/images/python-logo.jepg)
+![LOGO](/assets/images/python-logo.jepg)
 
 > # Table of Contents
 * [高階語法](#高階語法)

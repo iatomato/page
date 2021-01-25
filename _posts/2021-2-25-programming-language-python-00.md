@@ -5,7 +5,7 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-# Table of Contents
+> # Table of Contents
 * [高階語法](#高階語法)
   * [Streamline](#Streamline)
   * [Understandability](#Understandability)

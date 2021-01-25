@@ -5,6 +5,8 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-# Python
-
+# Streamline
+<br>
+# Understandability
+<br>
 [Examples]()

@@ -10,7 +10,7 @@ author: John G. Wick
   * [Streamline](#Streamline)
   * [Understandability](#Understandability)
   * [例子](#)
-*[基本資料類型](#基本資料類型)
+* [基本資料類型](#基本資料類型)
 * [Json](#Json)
   * [資料類型](#)
   * [對資料的訪問](#)

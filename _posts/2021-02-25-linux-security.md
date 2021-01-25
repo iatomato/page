@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Linux: 安全與加固"
+categories: Operating System
 author: John G. Wick
 ---
 

@@ -5,8 +5,13 @@ layout: post
 "What's Programming language best?"<br>
 I know many people have asked this question.<br>
 Yes, it's a stupid question.<br>
-
-{% highlight C %}
+<hr>
+<br>
+{% highlight bash %}
+vim hello.c
+{% endhighlight %}
+<br>
+{% highlight c %}
 #include <studio.h>
 
 int main(int argc, char *argc[])

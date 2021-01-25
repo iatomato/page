@@ -5,7 +5,7 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-![LOGO](/python-logo.jepg)
+![LOGO](python-logo.jepg)
 
 > # Table of Contents
 * [高階語法](#高階語法)

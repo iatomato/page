@@ -20,12 +20,12 @@ author: John G. Wick
 ### *Streamline*
 
 簡短而有效率
-{% highlight python %}
+```python
 if (a != 0)
   return 1
 else
   return 0
-{% endhighlight %}
+```
 
 ### *Understandability*
 

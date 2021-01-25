@@ -7,4 +7,4 @@ author: John G. Wick
 
 # Python
 
-[Download & Install](https://www.python.org)
+[Examples]()

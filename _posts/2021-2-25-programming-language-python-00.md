@@ -7,4 +7,4 @@ author: John G. Wick
 
 # Python
 
-Install [https://python.org]
+[Install](https://Python.org)

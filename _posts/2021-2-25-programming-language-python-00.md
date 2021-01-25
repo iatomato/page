@@ -6,6 +6,8 @@ author: John G. Wick
 ---
 
 <img src="{{site.baseurl}}/assets/images/python-logo.jpeg">
+
+![LOGO]({{site.baseurl}}/assets/images/python-logo.jepg)
 > # Table of Contents
 * [高階語法](#高階語法)
   * [Streamline](#Streamline)

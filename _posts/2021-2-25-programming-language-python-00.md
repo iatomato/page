@@ -5,7 +5,7 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-*[Streamline](#Stream)
+* [Streamline](#Stream)
 
 # Streamline
 

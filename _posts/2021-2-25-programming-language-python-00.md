@@ -5,8 +5,6 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-<img src="/assets/images/python-logo.jpeg">
-
 > # Table of Contents
 * [高階語法](#高階語法)
   * [Streamline](#Streamline)

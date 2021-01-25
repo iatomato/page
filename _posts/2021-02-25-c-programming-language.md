@@ -8,8 +8,10 @@ Yes, it's a stupid question.
 
 {% highlight C %}
 #include <studio.h>
+
 int main(int argc, char *argc[])
 {
+    printf("Hello World\n");
     return 0;
 }
 {% endhighlight %}

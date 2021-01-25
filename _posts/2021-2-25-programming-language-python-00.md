@@ -17,8 +17,8 @@ author: John G. Wick
 
 [Examples]()
 
----
+'''
 List
 Dict
 Tuple
----
+'''

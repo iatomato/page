@@ -1,5 +1,3 @@
-#include _categories/operating-system.md
-
 ## blog for quant humanists 2018
 
 ### select a template

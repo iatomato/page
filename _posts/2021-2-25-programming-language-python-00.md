@@ -5,8 +5,6 @@ categories: Programming Language
 author: John G. Wick
 ---
 
-![usefulimage](https://opieters.github.io/jekyll-image-gallery-example/photography/ghent-light-festival.html)
-
 > # Table of Contents
 * [高階語法](#高階語法)
   * [Streamline](#Streamline)

@@ -8,6 +8,10 @@ Yes, it's a stupid question.
 
 {% highlight C %}
 #include <studio.h>
+int main(int argc, char *argc[])
+{
+    return 0;
+}
 {% endhighlight %}
 
 {% comment %}

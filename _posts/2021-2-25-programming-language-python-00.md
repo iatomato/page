@@ -17,8 +17,10 @@ author: John G. Wick
 
 [Examples](#)
 
+# Basic
+
 ```
 List - [value0, value1, value2]
 Dict - {key0: value0, key1: value1, key2: value1}
-Tuple
+Tuple - (value0, value1, value2)
 ```

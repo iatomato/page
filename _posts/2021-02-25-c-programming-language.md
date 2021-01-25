@@ -2,9 +2,9 @@
 layout: post
 ---
 
-"What's Programming language best?"
-I know many people have asked this question.
-Yes, it's a stupid question.
+"What's Programming language best?"<br>
+I know many people have asked this question.<br>
+Yes, it's a stupid question.<br>
 
 {% highlight C %}
 #include <studio.h>

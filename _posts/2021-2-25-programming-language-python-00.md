@@ -6,10 +6,10 @@ author: John G. Wick
 ---
 
 # Table of Contents
-* [Streamline](#Stream)
-  * [解釋理解](#解釋理解)
-  * [例子](#例子)
-* [Understandability](#Understandability)
+* [高階語法](#高階語法)
+  * [Streamline](#Streamline)
+  * [Understandability](#Understandability)
+  * [例子](#)
 * [Json](#Json)
   * [數據類型](#)
   * [對數據的訪問](#)

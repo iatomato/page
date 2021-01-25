@@ -26,6 +26,12 @@ if (a != 0)
 else
   return 0
 ```
+變更
+```python
+if (a != 0)
+  return 1
+return 0
+```
 
 ### *Understandability*
 

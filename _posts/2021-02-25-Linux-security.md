@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux
+title: Linux: 安全與加固
 author: John G. Wick
 ---
 

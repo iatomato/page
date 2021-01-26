@@ -63,7 +63,6 @@ typle = (100, "value0")
 dict = {"key": list, "key1": tuple}
 ```
 # JSON-Library
-<hr>
 
 > **JSON**（JavaScript Object Notation，JavaScript物件表示法，讀作/ˈdʒeɪsən/）是一種由道格拉斯·克羅克福特構想和設計、輕量級的資料交換語言，該語言以易於讓人閱讀的文字為基礎，用來傳輸由屬性值或者序列性的值組成的資料物件。
 > 儘管JSON是JavaScript的一個子集，但JSON是獨立於語言的文字格式，並且採用了類似於C語言家族的一些習慣。<br>
@@ -76,7 +75,7 @@ dict = {"key": list, "key1": tuple}
 >   * 大括号 {} 保存对象
 >   * 中括号 [] 保存数组，数组可以包含多个对象
 
-### *Objects 資料類型*
+#### *Objects 資料類型*
 
 Objects 是使用在大括号“{}”中书写。<br>
 Objects 可以包含多个 key/value 对
@@ -84,7 +83,7 @@ Objects 可以包含多个 key/value 对
 { "key0": "value", "key1": null, "key2": 100 }
 ```
 
-### *支援函式庫* & *訪問檔案資料*
+#### *支援函式庫* & *訪問檔案資料*
 
   * json.dumps() 对数据进行编码。
   * json.loads() 对数据进行解码。

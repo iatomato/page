@@ -60,7 +60,7 @@ Tuple - (value0, value1, value2)
 > 儘管JSON是JavaScript的一個子集，但JSON是獨立於語言的文字格式，並且採用了類似於C語言家族的一些習慣。<br>
 
 > **JSON 语法规则**
->JSON 语法是 JavaScript 对象表示语法的子集。
+> JSON 语法是 JavaScript 对象表示语法的子集。
 >
 >   * 数据在名称/值对中
 >   * 数据由逗号分隔

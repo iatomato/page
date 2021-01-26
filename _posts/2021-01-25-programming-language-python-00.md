@@ -12,9 +12,11 @@ author: John G. Wick
   * [Streamline](#Streamline)
   * [Understandability](#Understandability)
     * [例子](#)
+ * [基本資料類型](#基本資料類型)
+   * [组合使用](#组合使用)
 
 # 高階語法
-#### *Streamline*
+## *Streamline*
 多数，程序员会对语法深度挖掘，从而使代码行数真正意义上缩短（而不是几行缩一行）一样的执行结果，但是问题在于对新手来说，阅读起来会有些困难。代码维护麻烦。这篇文章，就是了解如何去使用高阶语法。不会罗列出所有高级语法例子，但是万物都有思维。*让你的代码简洁起来*
 ```python
 if (a == 0)

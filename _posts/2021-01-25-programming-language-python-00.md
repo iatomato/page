@@ -84,3 +84,19 @@ Objects 可以包含多个 key/value 对
 ```
 ### *訪問檔案資料*
 ### *支援函式庫*
+
+  * json.dumps() 对数据进行编码。
+  * json.loads() 对数据进行解码。
+  
+```
+JSON string ----> json.loads() ----> Python Object
+Python string ----> json.dumps() ----> JSON Object
+```
+> 代码示例
+```python
+import json
+
+with open("config.json", 'r') as origin:
+  config = json.loads(origin)
+  origin.close()  
+```

@@ -95,13 +95,10 @@ Python string ----> json.dumps() ----> JSON Object
 
 ### Python JSON 类型转换对照表：
 
-| Python                    | JSON                  |
-|:-------------------------:|:---------------------:|
-| Dict                      | Object                |
-| List, Tuple               | Array                 |
-| Str                       | String                |
-| int, float                |
-| int- & float-derived Enums 
+```
+==============================
+| `Python`
+```
 > 代码示例
 ```python
 import json

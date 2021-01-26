@@ -40,7 +40,7 @@ return 0
    return 1
  return 0
 ```
-類似 C 語言的邏輯寫法
+類似 C 語言的邏輯寫法<br>
 
 ## *Understandability*
 
@@ -93,6 +93,24 @@ Objects 可以包含多个 key/value 对
 JSON string   ----> json.loads() ----> Python Object
 Python string ----> json.dumps() ----> JSON Object
 ```
+> dumps 与 loads 实例
+
+```python
+#!/usr/bin/env python
+
+import json
+
+# Dict 转为 JSON Object
+test = {
+  "enable": 0,
+  "port": 80,
+  "host": "https://www.github.com/iatomato/blogs"
+}
+
+json_obj = json.dumps(test)
+print("Origin Data": repr(test))
+print("JSON Object": json_obj)
+```
 
 `Python` `JSON` 类型转换对照表：
 ```
@@ -107,13 +125,4 @@ Python string ----> json.dumps() ----> JSON Object
   None                                   | null
 ```
 
-> 代码示例
-
-```python
-import json
-
-with open("config.json", 'r') as origin:
-  config = json.loads(origin)
-  origin.close()  
-```
 ### *訪問檔案資料*

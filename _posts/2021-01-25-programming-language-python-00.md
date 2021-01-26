@@ -85,7 +85,7 @@ Objects 可以包含多个 key/value 对
 ```
 
 ## *支援函式庫*
-
+> json.dump(obj, fp, *, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False, **kw)
   * json.dumps() 对数据进行编码。
   * json.loads() 对数据进行解码。
   
@@ -126,3 +126,12 @@ print("JSON Object": json_obj)
 ```
 
 ### *訪問檔案資料*
+
+> 伪代码示例
+```python
+with open(FILE_PATH_NAME, MODE) as origin:
+  config = json.loads(origin)
+  origin.close()
+```
+FILE_PATH_NAME: json 文件的路径 （Windows 的文件路径 lol 真有意思)
+MODE: 打开文件的模式，

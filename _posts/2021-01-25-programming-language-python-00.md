@@ -15,7 +15,7 @@ author: John G. Wick
  * [基本資料類型](#基本資料類型)
    * [组合使用](#组合使用)
  * [JSON-Library](#JSON-Library)
-   * [Objects 資料類型](#Objects 資料類型)
+   * [Objects資料類型](#Object資料類型)
    * [支援函式庫](#支援函式庫)
      * [訪問檔案資料](#訪問檔案資料)
    
@@ -76,7 +76,7 @@ dict = {"key": list, "key1": tuple}
 >   * 大括号 {} 保存对象
 >   * 中括号 [] 保存数组，数组可以包含多个对象
 
-## *Objects 資料類型*
+## *Objects資料類型*
 
 Objects 是使用在大括号“{}”中书写。<br>
 Objects 可以包含多个 key/value 对

@@ -2,6 +2,7 @@
 layout: post
 title: "ansible-playbook: playbook 基本使用"
 author: John G. Wick
+categories: Tutorials
 ---
 
 ![ansible-playbook]({{site.baseurl}}/assets/images/R842b5e4d70b8004cdf6a526e12ee7545.png)

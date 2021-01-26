@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "ansible-playbook: playbook 基本使用"
+title: "ansible: ansible-playbook 基本使用"
 author: John G. Wick
 categories: Tutorials
 ---
 
 ![ansible-playbook]({{site.baseurl}}/assets/images/R842b5e4d70b8004cdf6a526e12ee7545.png)
-> ansible-playbook 运行原理
+> ansible-playbook 运行结构
 
 > ansbile-playbook是一系统ansible命令的集合，其利用yaml 语言编写，运行过程，ansbile-playbook命令根据自上而下的顺序依次执行。同时，playbook开创了很多特性,它可以允许你传输某个命令的状态到后面的指令,如你可以从一台机器的文件中抓取内容并附为变量,然后在另一台机器中使用,这使得你可以实现一些复杂的部署机制,这是ansible命令无法实现的。
 
@@ -25,4 +25,8 @@ tasks:
 - name: create user
 user: name="{{ user }}"
 ```
-实现新增用户：<br>
+`playbook` 实现新增一位用户：<br>
+
+`name` 参数 create user 功能的概述，当执行到后面 (user: nam...)会打印 name 变量的值；<br>
+
+`hosts` 参数指定了对那些主机进行参考；<br>

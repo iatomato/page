@@ -73,7 +73,7 @@ Tuple - (value0, value1, value2)
 
 ### *Objects 資料類型*
 
-Objects 是使用在大括号“{}”中书写。
+Objects 是使用在大括号“{}”中书写。<br>
 Objects 可以包含多个 key/value 对
 ```json
 { "key0": "value", "key1": null, "key2": 100 }

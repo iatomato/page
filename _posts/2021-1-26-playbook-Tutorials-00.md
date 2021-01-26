@@ -1,6 +1,6 @@
 ---
 layout: post
-titile: ansible-playbook: playbook 基本使用
+title: "ansible-playbook: playbook 基本使用"
 author: John G. Wick
 ---
 

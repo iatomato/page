@@ -96,7 +96,7 @@ Python string ----> json.dumps() ----> JSON Object
 `Python` `JSON` 类型转换对照表：
 ```
  Python                                   JSON
- _________________________________________________
+ ________________________________________________
   Dict                                   | Object
   List, Tuple                            | Array
   Str                                    | String

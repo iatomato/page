@@ -74,7 +74,7 @@ dict = {"key": list, "key1": tuple}
 >   * 数据由逗号分隔
 >   * 大括号 {} 保存对象
 >   * 中括号 [] 保存数组，数组可以包含多个对象
-<hr>
+
 ### *Objects 資料類型*
 
 Objects 是使用在大括号“{}”中书写。<br>
@@ -82,8 +82,5 @@ Objects 可以包含多个 key/value 对
 ```json
 { "key0": "value", "key1": null, "key2": 100 }
 ```
-<hr>
 ### *訪問檔案資料*
-<hr>
 ### *支援函式庫*
-<hr>

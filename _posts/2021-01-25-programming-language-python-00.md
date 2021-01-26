@@ -83,8 +83,8 @@ Objects 可以包含多个 key/value 对
 ```json
 { "key0": "value", "key1": null, "key2": 100 }
 ```
-### *訪問檔案資料*
-### *支援函式庫*
+
+### *支援函式庫* & *訪問檔案資料*
 
   * json.dumps() 对数据进行编码。
   * json.loads() 对数据进行解码。

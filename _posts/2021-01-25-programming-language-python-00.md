@@ -13,7 +13,7 @@ author: John G. Wick
   * [Understandability](#Understandability)
   * [例子](#)
 * [基本資料類型](#基本資料類型)
-
+  * [组合使用](#组合使用)
 * [JSON-Library](#JSON-Library)
   * [資料類型](#資料類型)
   * [訪問檔案資料](#訪問檔案資料)
@@ -54,7 +54,7 @@ Tuple - (value0, value1, value2)
 ```
 **List** 和 **Tuple** 之間的簡單區別， **List** 的值可以在程序運行時更改，而 **Tuple** 值不可以更改。
 三種資料類型可以相互嵌套，至於如何組合就有什麼樣的效率。
-
+### 组合使用
 # JSON-Library
 
 > **JSON**（JavaScript Object Notation，JavaScript物件表示法，讀作/ˈdʒeɪsən/）是一種由道格拉斯·克羅克福特構想和設計、輕量級的資料交換語言，該語言以易於讓人閱讀的文字為基礎，用來傳輸由屬性值或者序列性的值組成的資料物件。

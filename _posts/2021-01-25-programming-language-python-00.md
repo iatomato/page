@@ -96,13 +96,13 @@ Python string ----> json.dumps() ----> JSON Object
 `Python` `JSON` 类型转换对照表：
 ```
  Python                                   JSON
- Dict                                     Object
- List, Tuple                              Array
- Str                                      String
- int, float, int- & float-derived Enums   Number
- True                                     true
- False                                    false
- None                                     null
+ Dict                                   | Object
+ List, Tuple                            | Array
+ Str                                    | String
+ int, float, int- & float-derived Enums | Number
+ True                                   | true
+ False                                  | false
+ None                                   | null
 ```
 
 > 代码示例

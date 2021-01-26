@@ -14,6 +14,11 @@ author: John G. Wick
     * [例子](#)
  * [基本資料類型](#基本資料類型)
    * [组合使用](#组合使用)
+ * [JSON-Library](#JSON-Library)
+   * [Objects 資料類型](#Objects 資料類型)
+   * [支援函式庫](#支援函式庫)
+     * [訪問檔案資料](#訪問檔案資料)
+   
 
 # 高階語法
 ## *Streamline*
@@ -79,7 +84,7 @@ Objects 可以包含多个 key/value 对
 { "key0": "value", "key1": null, "key2": 100 }
 ```
 
-## *支援函式庫* & *訪問檔案資料*
+## *支援函式庫*
 
   * json.dumps() 对数据进行编码。
   * json.loads() 对数据进行解码。
@@ -111,3 +116,4 @@ with open("config.json", 'r') as origin:
   config = json.loads(origin)
   origin.close()  
 ```
+### *訪問檔案資料*

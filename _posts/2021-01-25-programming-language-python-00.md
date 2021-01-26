@@ -86,10 +86,12 @@ Objects 可以包含多个 key/value 对
 
 ## *支援函式庫*
 
-> Basic Usage<br>
-> json.**dump**(obj, fp, *, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False, **kw)
   * json.dumps() 对数据进行编码。
   * json.loads() 对数据进行解码。
+  
+> Basic Usage<br>
+> json.**dump**(obj, fp, *, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False, **kw)
+
   
 ```
 JSON string   ----> json.loads() ----> Python Object

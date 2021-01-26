@@ -11,7 +11,7 @@ author: John G. Wick
 * [高階語法](#高階語法)
   * [Streamline](#Streamline)
   * [Understandability](#Understandability)
-  * [例子](#)
+  ** [例子](#例子)
 * [基本資料類型](#基本資料類型)
   * [组合使用](#组合使用)
 * [JSON-Library](#JSON-Library)
@@ -40,7 +40,7 @@ return 0
 ```
 類似 C 語言的邏輯寫法
 
-#### *Understandability*
+## *Understandability*
 
 [Examples](#)
 
@@ -54,7 +54,7 @@ Tuple - (value0, value1, value2)
 **List** 和 **Tuple** 之間的簡單區別， **List** 的值可以在程序運行時更改，而 **Tuple** 值不可以更改。
 三種資料類型可以相互嵌套，至於如何組合就有什麼樣的效率。<br>
 
-#### *组合使用*
+## *组合使用*
 
 ```python
 list = ["value0", tuple]
@@ -74,7 +74,7 @@ dict = {"key": list, "key1": tuple}
 >   * 大括号 {} 保存对象
 >   * 中括号 [] 保存数组，数组可以包含多个对象
 
-#### *Objects 資料類型*
+## *Objects 資料類型*
 
 Objects 是使用在大括号“{}”中书写。<br>
 Objects 可以包含多个 key/value 对
@@ -82,7 +82,7 @@ Objects 可以包含多个 key/value 对
 { "key0": "value", "key1": null, "key2": 100 }
 ```
 
-#### *支援函式庫* & *訪問檔案資料*
+## *支援函式庫* & *訪問檔案資料*
 
   * json.dumps() 对数据进行编码。
   * json.loads() 对数据进行解码。

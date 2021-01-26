@@ -11,12 +11,7 @@ author: John G. Wick
 * [高階語法](#高階語法)
   * [Streamline](#Streamline)
   * [Understandability](#Understandability)
-  ** [例子](#例子)
-* [基本資料類型](#基本資料類型)
-  * [组合使用](#组合使用)
-* [JSON-Library](#JSON-Library)
-  * [Objects 資料類型](#Objects 資料類型)
-  * [支援函式庫 & 訪問檔案資料](#支援函式庫 & 訪問檔案資料)
+    * [例子](#)
 
 # 高階語法
 #### *Streamline*

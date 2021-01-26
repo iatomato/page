@@ -95,31 +95,13 @@ Python string ----> json.dumps() ----> JSON Object
 
 ### Python JSON 类型转换对照表：
 
-```
-========================================================
-| Python                                     | JSON    |
-========================================================
-| Dict                                       | Object  |
---------------------------------------------------------
-| List, Tuple                                | Array   |
---------------------------------------------------------
-| Str                                        | String  |
---------------------------------------------------------
-| int, float,  int- & float-derived Enums    | number  |
---------------------------------------------------------
-| Ture                                       | true    |
---------------------------------------------------------
-| False                                      | false   |
---------------------------------------------------------
-| Nano                                       | null    |
---------------------------------------------------------
-```
-| Option                    | Type    | Description                                                                |
-|:-------------------------:|:-------:|:--------------------------------------------------------------------------:|
-| `build`                   | String  | File path of where everything should be compiled, like `README.md`.        |
-| `files`                   | Array   | Array of files to to compile.                                              |
-| `tableOfContents`         | Object  | Object to hold options for table of contents generation.                   |
-| `tableOfContents.heading` | String  | Heading for table of contents (use markdown syntax if desired).
+| Python                    | JSON                  |
+|:-------------------------:|:---------------------:|
+| Dict                      | Object                |
+| List, Tuple               | Array                 |
+| Str                       | String                |
+| int, float                |
+| int- & float-derived Enums 
 > 代码示例
 ```python
 import json

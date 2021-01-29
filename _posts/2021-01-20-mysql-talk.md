@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MySQL: 基本操作需要注意的邏輯問題"
+title: "MySQL: 基本操作与邏輯"
 author: John G. Wick
 ---
 

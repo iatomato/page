@@ -1,3 +1,3 @@
 # Clean
 
-Thanks for the theme developer
+Thanks for the theme developers

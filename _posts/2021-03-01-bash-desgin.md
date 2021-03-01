@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 显示当前文件夹下文件（优化方案）
+title: 显示当前路径下文件与文件夹（优化方案）
 author: John
 ---
 

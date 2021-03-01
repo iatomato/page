@@ -4,7 +4,7 @@ title: 显示当前文件夹下文件（优化方案）
 author: John
 ---
 
-```
+```bash
 #!/bin/bash
 
 clear

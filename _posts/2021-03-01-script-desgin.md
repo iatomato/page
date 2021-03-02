@@ -28,6 +28,7 @@ while (true); do
         sleep 5
 done
 ```
+
 [Source Code](https://raw.githubusercontent.com/iatomato/scripts/master/ls-for.sh)
 
-[Last edited in 03012021 9:40 PM](https://github.com/iatomato/blogs/blob/master/_posts/2021-03-01-bash-desgin.md)
+`[Last edited in 03012021 9:40 PM](https://github.com/iatomato/blogs/blob/master/_posts/2021-03-01-bash-desgin.md)`

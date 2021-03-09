@@ -1,56 +1,3 @@
----
-layout: post
-title: L(AMP) Unit 6
-author: John
----
-
-### Installing on Fedora/CentOS/Red Hat Enterprise Linux
-
-> sudo yum install httpd
-> 
-> sudo systemctl enable httpd
-> 
-> sudo systemctl start httpd
-> 
-> Newer releases of these distros use dnf rather than yum. See the Fedora project's documentation for platform-specific notes.
-
-### Installing on Ubuntu/Debian
-
-> sudo apt install apache2
-> 
-> sudo service apache2 start
-
-### Installing from source
-
-#### Before
-
-APR APR-UTIL
-
-> Make sure you have APR and APR-Util already installed on your system. If you don't, or prefer to not use the system-provided versions, download the latest versions of both APR and APR-Util from Apache APR, **unpack them into /httpd_source_tree_root/srclib/apr and /httpd_source_tree_root/srclib/apr-util** (be sure the directory names do not have version numbers; for example, the APR distribution must be under /httpd_source_tree_root/srclib/apr/) and use ./configure's --with-included-apr option. On some platforms, you may have to install the corresponding -dev packages to allow httpd to build against your installed copy of APR and APR-Util.
-
-[Source Code]()
-
-> APACHE INSTALLATION OVERVIEW
->
->  **Quick Start - Unix**
->
->  For complete installation documentation, see [ht]docs/manual/install.html or
->  http://httpd.apache.org/docs/2.4/install.html
->
->     $ ./configure --prefix=/usr/local/apache2
->     $ make
->     $ make install
->     $ /usr/local/apache2/bin/apachectl -k start
-
-## MySQL
-
-### Installing on Ubuntu/Debian
-
-> ~$ sudo apt install mysql-server
-> 
-> ~$ sudo mysql -u root
-
-```
 # Apache2 Configuration
 
 #ServerRoot "/etc/apache2"
@@ -172,4 +119,3 @@ LoadModule expires_module /usr/lib/apache2/modules/mod_expires.so
         php_admin_flag engine Off
     </Directory>
 </IfModule>
-```

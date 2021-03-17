@@ -4,7 +4,4 @@ title: WorldPress
 author: John G. Wick
 ---
 
-![beautiful]({{site.baseurl}}/assets/images/Rea901d953d3075466c0cd1b2b49f2ee2.png)
-
-Beautiful designs, powerful features, and the freedom to build anything you want. WordPress is both free and priceless at the same time.
-<hr>
+![image](https://user-images.githubusercontent.com/77953022/111400511-7060ab80-8702-11eb-83a0-763521367515.png)

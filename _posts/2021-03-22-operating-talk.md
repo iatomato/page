@@ -5,7 +5,7 @@ author:
 language: EN
 ---
 
-**More SYNOPSIS and DESCRIPTION Read The Manual Pager**
+**More SYNOPSIS OPTIONS and DESCRIPTION Read The Manual Pager**
 
 ### rsync
 

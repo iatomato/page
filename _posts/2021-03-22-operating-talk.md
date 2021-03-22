@@ -1,3 +1,10 @@
+---
+layout: post
+title: YOU KNOW THIS COMMAND
+author:
+language: EN
+---
+
 ### rsync
 
 > From `Manual`

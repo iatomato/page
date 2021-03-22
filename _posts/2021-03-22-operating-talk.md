@@ -1,6 +1,6 @@
 ---
 layout: post
-title: YOU KNOW THIS COMMAND
+title: You Know This Command
 author:
 language: EN
 ---

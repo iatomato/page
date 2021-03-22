@@ -5,6 +5,8 @@ author:
 language: EN
 ---
 
+<t>**Base Options Read Manual Pager**<t>
+
 ### rsync
 
 > From `Manual`

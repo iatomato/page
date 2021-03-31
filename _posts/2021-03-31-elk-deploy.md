@@ -1,8 +1,13 @@
 ---
 layout: post
-title: ELK Deploy
+title: ELK (Log System) Deploy
 author: John
 ---
+
+两台主机
+
+| 192.168.122.87  | node0 |
+| 192.168.122.130 | node1 |
 
 ## elasticsearch kibana 安装
 

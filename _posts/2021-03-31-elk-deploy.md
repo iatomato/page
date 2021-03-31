@@ -1,4 +1,10 @@
-## elasticsearch 安装
+---
+layout: post
+title: ELK Deploy
+author: John
+---
+
+## elasticsearch kibana 安装
 
 ```
 ~$ wget https://artifacts.elastic.co/downloads/kibana/kibana-7.12.0-amd64.deb
@@ -42,4 +48,6 @@ discovery.seed_hosts: ["node0", "node1", "node2"]
 # Bootstrap the cluster using an initial set of master-eligible nodes:
 #
 cluster.initial_master_nodes: ["node0", "node1", "node2"]
+```
+```
 ```

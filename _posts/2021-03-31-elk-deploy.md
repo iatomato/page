@@ -118,7 +118,7 @@ elasticsearch.hosts: ["http://192.168.122.87:9200"]
 root@node0:~# systemctl start kibana.service
 root@node0:~# systemctl status kibana.service
 ● kibana.service - Kibana
-     Loaded: loaded (/etc/systemd/system/kibana.service; enabled; vendor p>     Active: active (running) since Wed 2021-03-31 13:03:48 UTC; 9s ago
+     Loaded: loaded (/etc/systemd/system/kibana.service; enabled; vendor p>     Active: active (running)
        Docs: https://www.elastic.co
    Main PID: 7000 (node)
       Tasks: 11 (limit: 1072)
@@ -127,7 +127,7 @@ root@node0:~# systemctl status kibana.service
              └─7000 /usr/share/kibana/bin/../node/bin/node /usr/share/kiba>
 Mar 31 13:03:48 node0 systemd[1]: Started Kibana.
 root@node0:~# ps -ef | grep kibana
-kibana      7085       1 75 13:05 ?        00:00:00 /usr/share/kibana/bin/../node/bin/node /usr/share/kibana/bin/../src/cli/dist --logging.dest=/var/log/kibana/kibana.log --pid.file=/run/kibana/kibana.pid
+kibana      7085       1 75 13:05 ?        00:00:00 /usr/share/kibana/bin/../node/bin/node /usr/share/kib
 root        7098    6630  0 13:05 pts/3    00:00:00 grep --color=auto kibana
 ```
 ```

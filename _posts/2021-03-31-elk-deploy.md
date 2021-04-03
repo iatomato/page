@@ -5,7 +5,7 @@ author: John
 ---
 
 两台主机
-IP Address      |Host Name
+IP Address      |Host Name |
 ----------------|----------|
 192.168.122.87  | node0    |
 ----------------|----------|

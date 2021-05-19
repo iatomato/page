@@ -6,11 +6,11 @@ title: 30 Examples for Shell Script
 
 # Linux Shell 脚本封装风格
 
-```shell
+```termianl
 ~$ ./foo.sh -c config.json
 ```
 
-```shell
+```terminal
 ~$ ./foo.sh
 
 foo > -c
@@ -25,7 +25,7 @@ foo -c > config.json
 
 # Examples
 
-```shell
+```terminal
 ~$ cat <<EOF > list.txt
 > 1) a    A   80
 > 2) b    B   90

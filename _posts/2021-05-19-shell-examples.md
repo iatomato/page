@@ -4,7 +4,7 @@ author: John G
 title: 30 Examples for Shell Script
 ---
 
-Linux Shell 脚本封装风格
+# Linux Shell 脚本封装风格
 
 ```shell
 ~$ ./foo.sh -c config.json

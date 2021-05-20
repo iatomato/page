@@ -42,10 +42,10 @@ do
         "prefix_path=*") prefix_path=${index#*=};;
         "cache_path=*") cache_path=${index#*=};;
         "node_path=*") node_path=${index#*=} ;;
-        "config_path") config_path=${index#*=} ;;
-        "script_name") script_name=${index#*=} ;;
-        "logs_path") logs_path=${index#*=} ;;
-        "null_path") null_path=${index#*=} ;;
+        "config_path=*") config_path=${index#*=} ;;
+        "script_name=*") script_name=${index#*=} ;;
+        "logs_path=*") logs_path=${index#*=} ;;
+        "null_path=*") null_path=${index#*=} ;;
     esac
 done
 

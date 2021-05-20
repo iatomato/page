@@ -23,7 +23,7 @@ foo -c > config.json
 
 <a href="https://raw.githubusercontent.com/iatomato/scripthub/master/shell-style.sh" target="_blank">-拓展例子</a>
 
-# A example for configure script
+# A example for a part of configure script
 
 ```shell
 ...

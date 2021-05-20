@@ -1,7 +1,7 @@
 ---
 layout: post
 author: John G
-title: 30 Examples for Shell Script
+title: 📰 30 Examples for Shell Script
 ---
 
 # Linux Shell 脚本封装风格

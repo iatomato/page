@@ -19,7 +19,7 @@ foo -c > config.json
 
 **Yes, the first one is better.**
 
-不需要在类似 'waiting for user input' 界面的设计，而是错误参数报错，提示用户需要 '-h' or '--help' 查看帮助。*代码块超过三层，还是重新设计吧！*
+不需要在类似 'waiting for user input' 界面的设计，而是错误参数报错，提示用户需要 '-h' or '--help' 查看帮助。***代码块超过三层，还是重新设计吧！****
 
 <a href="https://raw.githubusercontent.com/iatomato/scripthub/master/shell-style.sh" target="_blank">-拓展例子</a>
 

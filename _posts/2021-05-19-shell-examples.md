@@ -64,7 +64,7 @@ readonly null_path
 ...
 ```
 
-`application-notify.sh`: It's a code part of a closed project
+`(C) application-notify.sh`: It's a code part of a closed project
 ```shell
 # (C) Copyright 2021 ISNTL <?>
 ...
@@ -83,7 +83,7 @@ done
 ...
 ```
 
-`**vtl.sh`: A part
+`(C) **vtl.sh`: A part
 ```shell
 # (C) Copyright 2021 ISNTL <?>
 ...
@@ -105,10 +105,7 @@ if [ -n "$1" ]; then
                                 _notify "Service is stopped"
                         fi
 ...
-```
-
-```shell
-# (C) Copyright 2021 ISNTL <?>
+...
 ...
 elif [ $ini_pid -eq 1 ] && [ $nexists -eq 1 ]; then
     `${core_dir} -c ${select_node_dir} > \

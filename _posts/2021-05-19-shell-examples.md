@@ -64,7 +64,7 @@ readonly null_path
 ```
 
 `application-notify.sh`: It's a code part of a bad project
-```
+```shell
 declare _TIMEER=0
 
 _application()

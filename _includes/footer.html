@@ -13,7 +13,10 @@
             {% if site.author %}
               {{ site.author | escape }}
             {% else %}
+              {{ site.title | escape }}
+            {% endif %}
             -->
+            {% if site.title %}
               {{ site.title | escape }}
             {% endif %}
             </li>

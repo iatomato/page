@@ -19,7 +19,7 @@ foo -c > config.json
 
 **Yes, the first one is better.**
 
-不需要在类似 'waiting for user input' 界面的设计，而是错误参数报错，提示用户需要 '-h' or '--help' 查看帮助。
+不需要在类似 *'waiting for user input'* 界面的设计，而是错误参数报错，提示用户需要 '-h' or '--help' 查看帮助。
 
 ***代码块超过三层，还是重新设计吧！*** 
 
@@ -62,6 +62,23 @@ readonly logs_path
 readonly null_path
 ...
 ```
+
+`application-notify.sh`
+```
+declare _TIMEER=0
+
+_application()
+{
+        sleep $([ -n "$1" ] && echo $1 || echo 2)
+}
+
+while (true); do
+        let "_TIMER = _TIMER + 1"
+        _application $_TIMER
+        notify-send "_application-notify" "$_TIMER"
+done
+```
+
 # Examples
 
 ```terminal

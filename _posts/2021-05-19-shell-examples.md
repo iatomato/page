@@ -3,7 +3,7 @@ layout: post
 author: John G
 title: 📰 30 Examples for Shell Script
 ---
-*What's (C) in this post?*
+*What's (C) in this post?* <br>
 *This article is about the legal symbol.*
 
 # Linux Shell 脚本封装风格

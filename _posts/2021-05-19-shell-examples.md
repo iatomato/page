@@ -6,15 +6,16 @@ title: 📰 30 Examples for Shell Script
 
 # Linux Shell 脚本封装风格
 
-```termianl
-~$ ./foo.sh -c config.json
+```terminal
+~$ ./foo.sh -p="this is command mode"
+this is command mode
 ```
 
 ```terminal
 ~$ ./foo.sh
-
-foo > -c
-foo -c > config.json
+foo > -p
+foo -p > "this is menu mode
+this is menu mode
 ```
 
 **Yes, the first one is better.**

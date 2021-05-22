@@ -27,7 +27,7 @@ foo -c > config.json
 
 <a href="https://raw.githubusercontent.com/iatomato/scripthub/master/shell-style.sh" target="_blank">-拓展例子</a>
 
-`configure.sh` A example for a part of configure script
+`configure.sh`: A example for a part of configure script
 
 ```shell
 ...
@@ -63,7 +63,7 @@ readonly null_path
 ...
 ```
 
-`application-notify.sh`
+`application-notify.sh`: It's a code part of a bad project
 ```
 declare _TIMEER=0
 

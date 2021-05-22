@@ -80,6 +80,42 @@ while (true); do
 done
 ```
 
+`**vtl.sh`: A part
+```shell
+...
+_notify()
+{
+        notify-send -t 3000 "v2ctl" "$1"
+}
+
+if [ -n "$1" ]; then
+        case "$1" in
+                "--help"|"-h"|"help") tips_help;;
+                "--status"|"-e"|"status")
+                        if [ $ini_pid -eq 0 ]; then
+                                _notify \
+                                        "Service $service_name is running with PID \
+                                        $(sleep $_timer && \
+                                        pidof $service_name)"
+                        elif [ $ini_pid -eq 1 ]; then
+                                _notify "Service is stopped"
+                        fi
+...
+```
+
+```shell
+elif [ $ini_pid -eq 1 ] && [ $nexists -eq 1 ]; then
+    `${core_dir} -c ${select_node_dir} > \
+        $inter_log_dir 2>&1 \
+        &` && sleep 1 && \
+        notify-send \
+        -i important \
+        -t 3000 \
+        "v2ctl" \
+        "Start Services Sucessfull\n PID \
+        $(sleep $_timer && pidof v2ray)"
+```
+                                        
 # Examples
 
 ```terminal

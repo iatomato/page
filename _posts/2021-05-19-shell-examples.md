@@ -4,8 +4,8 @@ author: John G
 title: 📰 30 Examples for Shell Script
 ---
 
-<span style="color:blue; font-size:11px"><ins> *What's (C) in this post?*</ins><br></span>
-<span style="color:blue; font-size:11px"><ins> *This article is about the legal symbol.*</ins></span>
+<span style="color:blue; font-size:5px"><ins> *What's (C) in this post?*</ins><br></span>
+<span style="color:blue; font-size:15px"><ins> *This article is about the legal symbol.*</ins></span>
 
 # Linux Shell 脚本封装风格
 

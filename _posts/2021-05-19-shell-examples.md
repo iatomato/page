@@ -4,7 +4,7 @@ author: John G
 title: 📰 30 Examples for Shell Script
 ---
 <ins>*What's (C) in this post?*</ins><br>
-*This article is about the legal symbol.*
+<ins>*This article is about the legal symbol.*</ins>
 
 # Linux Shell 脚本封装风格
 

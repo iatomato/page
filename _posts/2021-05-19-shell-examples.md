@@ -6,6 +6,8 @@ title: 📰 30 Examples for Shell Script
 <ins>*What's (C) in this post?*</ins><br>
 <ins>*This article is about the legal symbol.*</ins>
 
+<span style="color:blue"><ins>*What's (C) in this post?*</ins><br></span>
+
 # Linux Shell 脚本封装风格
 
 ```terminal

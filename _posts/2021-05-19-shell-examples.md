@@ -6,7 +6,7 @@ title: 📰 30 Examples for Shell Script
 <ins>*What's (C) in this post?*</ins><br>
 <ins>*This article is about the legal symbol.*</ins>
 
-<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
+<p>Some Markdown text with <span style="color:green">some <em>blue</em> text</span>.</p>
 
 # Linux Shell 脚本封装风格
 

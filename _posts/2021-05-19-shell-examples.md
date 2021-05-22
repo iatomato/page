@@ -66,6 +66,8 @@ readonly null_path
 
 `application-notify.sh`: It's a code part of a closed project
 ```shell
+# (C) Copyright 2021 ISNTL <?>
+...
 declare _TIMEER=0
 
 _application()
@@ -78,10 +80,12 @@ while (true); do
         _application $_TIMER
         notify-send "_application-notify" "$_TIMER"
 done
+...
 ```
 
 `**vtl.sh`: A part
 ```shell
+# (C) Copyright 2021 ISNTL <?>
 ...
 _notify()
 {
@@ -104,6 +108,8 @@ if [ -n "$1" ]; then
 ```
 
 ```shell
+# (C) Copyright 2021 ISNTL <?>
+...
 elif [ $ini_pid -eq 1 ] && [ $nexists -eq 1 ]; then
     `${core_dir} -c ${select_node_dir} > \
         $inter_log_dir 2>&1 \
@@ -114,6 +120,7 @@ elif [ $ini_pid -eq 1 ] && [ $nexists -eq 1 ]; then
         "v2ctl" \
         "Start Services Sucessfull\n PID \
         $(sleep $_timer && pidof v2ray)"
+...
 ```
                                         
 # Examples

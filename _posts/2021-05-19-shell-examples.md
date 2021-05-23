@@ -141,3 +141,5 @@ c    C   87
 d    D   85
 e    E   89
 ```
+
+[<span style="color:blue; font-size:15px"><ins>*Source Code of This Post*</ins></span>](https://raw.githubusercontent.com/iatomato/blogs/master/_posts/2021-05-19-shell-examples.md)

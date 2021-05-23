@@ -4,8 +4,9 @@ author: John G
 title: 📰 30 Examples for Shell Script
 ---
 
-<span style="color:blue; font-size:15px"><ins> *What's (C) in this post?*</ins><br></span>
-<span style="color:blue; font-size:15px"><ins> *This article is about the legal symbol.*</ins></span>
+<span style="color:blue; font-size:15px"><ins> *What's (C) in this post?*</ins></span><br>
+<span style="color:blue; font-size:15px"><ins> *This article is about the legal symbol.*</ins></span><br>
+<span style="color:blue; font-size:15px"><ins> *存在标志的代码，原作者享有所有权*</ins></span>
 
 # Linux Shell 脚本封装风格
 
@@ -85,8 +86,6 @@ done
 ...
 ```
 
-提高代码的复用性，这就是为什么要有 Functions
-
 `(C) **vtl.sh`: A part
 ```shell
 ...
@@ -121,7 +120,9 @@ elif [ $ini_pid -eq 1 ] && [ $nexists -eq 1 ]; then
         $(sleep $_timer && pidof v2ray)"
 ...
 ```
-                                        
+
+提高代码的复用性，这就是为什么要有 Functions
+
 # Examples
 
 ```terminal

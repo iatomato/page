@@ -207,7 +207,10 @@ echo "Total: $_TOTAL_U"
 
 [ -d "/123" ] && ls *\.txt | xargs -i mv {} {}.bak
 tar -czf 123.tar.gz *\.bak
-
+for _g in $(ls *\.bak); do
+    mv $_g ${_g##.bak}
+done
+rm *\.bak
 ```
 
 [<span style="color:blue; font-size:15px"><ins>*Source Code of This Post*</ins></span>](https://raw.githubusercontent.com/iatomato/blogs/master/_posts/2021-05-19-shell-examples.md)

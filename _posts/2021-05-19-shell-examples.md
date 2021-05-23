@@ -198,9 +198,9 @@ echo "Total: $_TOTAL_U"
 ### 5
 
 > 找到/123目录下所有后缀名为.txt的文件
-> - 1. 批量修改.txt为.txt.bak
-> - 2. 把所有.bak文件打包压缩为123.tar.gz
-> - 3. 批量还原文件的名字，即把增加的.bak再删除
+> - 批量修改.txt为.txt.bak
+> - 把所有.bak文件打包压缩为123.tar.gz
+> - 批量还原文件的名字，即把增加的.bak再删除
 
 
 [<span style="color:blue; font-size:15px"><ins>*Source Code of This Post*</ins></span>](https://raw.githubusercontent.com/iatomato/blogs/master/_posts/2021-05-19-shell-examples.md)

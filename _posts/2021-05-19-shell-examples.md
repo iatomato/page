@@ -17,7 +17,7 @@ this is command mode
 ```terminal
 ~$ ./foo.sh
 foo > -p
-foo -p > "this is menu mode
+foo -p > "this is menu mode"
 this is menu mode
 ```
 
@@ -25,7 +25,7 @@ this is menu mode
 
 不需要在类似 *'waiting for user input'* 界面的设计，而是错误参数报错，提示用户需要 '-h' or '--help' 查看帮助。
 
-***代码块超过三层，还是重新设计吧！*** 
+***代码块嵌套超过三层，还是重新设计吧！*** 
 
 如果你没学过程序设计，那么，好吧！那样写也很棒棒！
 
@@ -85,6 +85,8 @@ done
 ...
 ```
 
+提高代码的复用性，这就是为什么要有 Functions
+
 `(C) **vtl.sh`: A part
 ```shell
 ...
@@ -105,7 +107,6 @@ if [ -n "$1" ]; then
                         elif [ $ini_pid -eq 1 ]; then
                                 _notify "Service is stopped"
                         fi
-...
 ...
 ...
 elif [ $ini_pid -eq 1 ] && [ $nexists -eq 1 ]; then

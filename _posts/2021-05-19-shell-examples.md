@@ -69,7 +69,6 @@ readonly null_path
 
 `(C) application-notify.sh`: It's a code part of a closed project
 ```shell
-# (C) Copyright 2021 ISNTL <?>
 ...
 declare _TIMEER=0
 
@@ -88,7 +87,6 @@ done
 
 `(C) **vtl.sh`: A part
 ```shell
-# (C) Copyright 2021 ISNTL <?>
 ...
 _notify()
 {

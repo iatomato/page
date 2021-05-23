@@ -202,5 +202,12 @@ echo "Total: $_TOTAL_U"
 > - 把所有.bak文件打包压缩为123.tar.gz
 > - 批量还原文件的名字，即把增加的.bak再删除
 
+```shell
+#!/bin/bash
+
+[ -d "/123" ] && ls *\.txt | xargs -i mv {} {}.bak
+tar -czf 123.tar.gz *\.bak
+
+```
 
 [<span style="color:blue; font-size:15px"><ins>*Source Code of This Post*</ins></span>](https://raw.githubusercontent.com/iatomato/blogs/master/_posts/2021-05-19-shell-examples.md)

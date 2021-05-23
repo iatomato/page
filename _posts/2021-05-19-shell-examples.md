@@ -153,7 +153,8 @@ e    E   89
 #!/bin/bash
 # Written by Wick Jr.
 
-declare _DATE=$(date +%F)
+declare _DATE=$(date +"%F")
+declare _NEXT_DATE=$(date --date="yesterday" +"%F")
 declare readonly _DIR_PATH="/tmp/data/"
 declare _FILE_NAME=$_DATE.log
 
@@ -167,5 +168,30 @@ declare _FILE_NAME=$_DATE.log
 >> 61.147.76.51 – [25/Sep/2013:16:08:31 +0800]xyzdiy.5d6d.com “/attachment.php?aid=4554&k=9ce51e2c376bc861603c7689d97c04a1&t=1334564048&fid=9&sid=zgohwYoLZq2qPW233ZIRsJiUeu22XqE8f49jY9mouRSoE71″ 301″http://xyzdiy.5d6d.com/thread-1435-1-23.html” “Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)”
 > 统计出每个IP访问量有多少
 
+```shell
+#!/bin/bash
+```
 
+### 3
+
+> 写一个脚本计算一下linux系统所有进程占用内存大小的和。
+
+```shell
+#!/bin/bash
+
+declare _TOTAL_U=0
+for _G in $(ps aux | grep -v 'TIME COMMAND' | awk '{ print $6 }')
+do
+    _TOTAL_U=$(( $_TOTAL_U+$_G ))
+done
+echo "Total: $_TOTAL_U"
+```
+
+### 4
+
+>  设计一个脚本，监控远程的一台机器(假设ip为180.163.26.39)的存活状态，当发现宕机时发一封邮件给你自己。
+
+```shell
+#!/bin/bash
+```
 [<span style="color:blue; font-size:15px"><ins>*Source Code of This Post*</ins></span>](https://raw.githubusercontent.com/iatomato/blogs/master/_posts/2021-05-19-shell-examples.md)

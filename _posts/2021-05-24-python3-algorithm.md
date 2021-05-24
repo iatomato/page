@@ -1,7 +1,7 @@
 ---
 layout: post
 author:
-title: Algorithm: Solutions in Python3
+title: Algorithm\: Solutions in Python3
 ---
 
 # [`solutions.py`](https://github.com/iatomato/myleetcode-py/blob/master/solution.py)

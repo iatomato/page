@@ -42,3 +42,4 @@ if __name__ == "__main__":
         print(_list)
         solution = Solution().removeDuplicates(_list)
         print("> %s\t" %solution)
+```        

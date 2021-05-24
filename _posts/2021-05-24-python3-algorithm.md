@@ -3,7 +3,7 @@ layout: post
 author:
 title: Solutions in Python3
 ---
-
+<span style="color:blue; font-size:15px"><ins>*(C) Copyright 2021 ISNTL <?>*</ins></span><br>
 ### Source Code: [`solutions.py`](https://github.com/iatomato/myleetcode-py/blob/master/solution.py)
 
 ```python

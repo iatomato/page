@@ -5,6 +5,7 @@ title: Algorithm: Solutions in Python3
 ---
 
 [`solutions.py`](https://github.com/iatomato/myleetcode-py/blob/master/solution.py)
+
 ```python3
 class Solution:
     def removeDuplicates(self, nums: list) -> int:

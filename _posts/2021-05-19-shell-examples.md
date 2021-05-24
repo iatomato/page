@@ -1,7 +1,7 @@
 ---
 layout: post
 author: John G
-title: 📰 30 Examples for Shell Script
+title: 30 Examples for Shell Script
 ---
 
 <span style="color:blue; font-size:15px"><ins> *What's (C) in this post?*</ins></span><br>

@@ -1,12 +1,12 @@
 ---
 layout: post
+author:
 title: Algorithm: Solutions in Python3
-author: Wick Jr.
 ---
 
-[`solutions.py`](https://github.com/iatomato/myleetcode-py/blob/master/solution.py)
+# [`solutions.py`](https://github.com/iatomato/myleetcode-py/blob/master/solution.py)
 
-```python3
+```python
 class Solution:
     def removeDuplicates(self, nums: list) -> int:
         _nums = []

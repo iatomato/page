@@ -1,7 +1,7 @@
 ---
 layout: post
-author: Wick Jr.
 title: Algorithm: Solutions in Python3
+author: Wick Jr.
 ---
 
 [`solutions.py`](https://github.com/iatomato/myleetcode-py/blob/master/solution.py)

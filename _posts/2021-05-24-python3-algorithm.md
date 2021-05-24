@@ -28,3 +28,17 @@ class Solution:
             if (num == _nums[index]):   return index
         return _index
 ```
+# check out it
+```python
+import random
+from solutions import Solution as SL
+
+if __name__ == "__main__":
+    for few in range(5):
+        #_list = [random.randrange(10) for val in \
+        #        range(random.randrange(10))]
+        _list = [random.randrange(10) for val in range(10)]
+        # TODO del
+        print(_list)
+        solution = Solution().removeDuplicates(_list)
+        print("> %s\t" %solution)

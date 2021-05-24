@@ -4,7 +4,7 @@ author:
 title: Solutions in Python3
 ---
 
-# Source Code: [`solutions.py`](https://github.com/iatomato/myleetcode-py/blob/master/solution.py)
+### Source Code: [`solutions.py`](https://github.com/iatomato/myleetcode-py/blob/master/solution.py)
 
 ```python
 class Solution:
@@ -28,7 +28,8 @@ class Solution:
             if (num == _nums[index]):   return index
         return _index
 ```
-# check out it
+
+### check out it
 ```python
 import random
 from solutions import Solution as SL

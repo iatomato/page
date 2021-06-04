@@ -1,7 +1,7 @@
 ---
 layout: post
 author:
-title: Solutions in Python3
+title: Solutions<Python3> - Remove Duplicates
 ---
 <span style="color:blue; font-size:15px"><ins>*(C) Copyright 2021 ISNTL <?>*</ins></span><br>
 

@@ -32,4 +32,3 @@ void n_str(char *str)
 	printf("%d\n", *(str + 0));
 }
 ```
-
